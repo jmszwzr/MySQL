@@ -1,5 +1,7 @@
 # MySQL 学习
 
+[TOC]
+
 ## 一、数据库概述
 
 ### 1、关于数据库的基本概念
@@ -74,7 +76,7 @@ mysqld --defaults-file="C:\MySQL\dbdata3307\conf\my.ini"
 
 > - 查看`--defaults-file`命令： `mysqld --verbose --help > C:\MySQL\dbdata3307\conf\help.txt`
 >   - `mysqld --help`	#查看MySQL版本的简略信息
->   - mysqld --verbose --help`		#查看详细信息
+>     - mysqld --verbose --help`	#查看详细信息
 >   - mysql --help
 > - 缺少的mysql文件夹从系统安装mysql的路径下\dbdata3307\下复制
 > - 随时随地查看错误日志
